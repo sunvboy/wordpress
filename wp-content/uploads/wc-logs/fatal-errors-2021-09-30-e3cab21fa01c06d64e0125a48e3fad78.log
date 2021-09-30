@@ -1,0 +1,13 @@
+2021-09-30T14:54:10+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\xampp\htdocs\wordpress.local\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-09-30T15:59:21+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsIG' not found in C:\xampp\htdocs\wordpress.local\wp-content\plugins\unite-gallery-lite\inc_php\framework\provider\provider_functions.class.php:577
+Stack trace:
+#0 C:\xampp\htdocs\wordpress.local\wp-content\plugins\unite-gallery-lite\unitegallery_admin.php(354): UniteProviderFunctionsUG::updatePlugin()
+#1 C:\xampp\htdocs\wordpress.local\wp-content\plugins\unite-gallery-lite\inc_php\framework\provider\provider_admin.class.php(289): UniteGalleryAdmin::onAjaxAction()
+#2 C:\xampp\htdocs\wordpress.local\wp-includes\class-wp-hook.php(303): UniteProviderAdminUG->onAjaxAction('')
+#3 C:\xampp\htdocs\wordpress.local\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress.local\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress.local\wp-admin\admin-ajax.php(187): do_action('wp_ajax_unitega...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress.local\wp-content\plugins\unite-gallery-lite\inc_php\framework\provider\provider_functions.class.php on line 577
+
